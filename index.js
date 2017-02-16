@@ -40,7 +40,7 @@ module.exports = {
             page_out_from_end: 'Letzte Seite',
             page_out_from_begin: 'Erste Seite',
             page_range_info: '%{offsetBegin}-%{offsetEnd} von %{total}',
-            next: 'Vor',
+            next: 'Weiter',
             prev: 'Zurück',
         },
         auth: {

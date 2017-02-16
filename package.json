@@ -1,6 +1,6 @@
 {
   "name": "aor-language-german",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "German translations for admin-on-rest, the frontend framework for building admin applications on top of REST services",
   "main": "index.js",
   "scripts": {
