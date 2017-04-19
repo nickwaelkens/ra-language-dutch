@@ -7,7 +7,7 @@ Dutch translations for [admin-on-rest](https://github.com/marmelab/admin-on-rest
 ## Installation
 
 ```sh
-npm install --save aor-language-german
+npm install --save aor-language-dutch
 ```
 
 ## Usage
