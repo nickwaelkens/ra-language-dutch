@@ -1,24 +1,24 @@
 {
-  "name": "aor-language-german",
+  "name": "aor-language-dutch",
   "version": "1.1.0",
-  "description": "German translations for admin-on-rest, the frontend framework for building admin applications on top of REST services",
+  "description": "Dutch translations for admin-on-rest, the frontend framework for building admin applications on top of REST services",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/der-On/aor-language-german.git"
+    "url": "git+https://github.com/pimschaaf/aor-language-dutch"
   },
   "keywords": [
     "react",
     "admin-on-rest",
     "translation"
   ],
-  "author": "Ondrej Brinkel",
+  "author": "Pim Schaaf",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/der-On/aor-language-german/issues"
+    "url": "https://github.com/pimschaaf/aor-language-dutch/issues"
   },
-  "homepage": "https://github.com/der-On/aor-language-german#readme"
+  "homepage": "https://github.com/pimschaaf/aor-language-dutch#readme"
 }
