@@ -16,7 +16,7 @@ npm install --save aor-language-german
 import dutchMessages from 'aor-language-dutch';
 
 const messages = {
-    'de': dutchMessages,
+    'nl': dutchMessages,
 };
 
 <Admin locale="nl" messages={messages}>
