@@ -22,6 +22,7 @@ module.exports = {
             show: '%{name} #%{id}',
             create: '%{name} toevoegen',
             delete: '%{name} #%{id} verwijderen',
+            dashboard: 'Dashboard',
         },
         input: {
             image: {
@@ -32,7 +33,7 @@ module.exports = {
         message: {
             yes: 'Ja',
             no: 'Nee',
-            are_you_sure: 'Weet je het zeker?',
+            are_you_sure: 'Weet u het zeker?',
             about: 'Over',
         },
         navigation: {
@@ -55,6 +56,7 @@ module.exports = {
             created: 'Element toegevoegd',
             deleted: 'Element verwijderd',
             item_doesnt_exist: 'Element bestaat niet',
+            http_error: 'Server communicatie fout',
         },
         validation: {
             required: 'Verplicht',
