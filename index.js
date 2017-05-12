@@ -37,6 +37,7 @@ module.exports = {
             about: 'Over',
         },
         navigation: {
+            no_results: 'Geen resultaten gevonden',
             page_out_of_boundaries: 'Paginanummer %{page} buiten bereik',
             page_out_from_end: 'Laatste pagina',
             page_out_from_begin: 'Eerste pagina',
