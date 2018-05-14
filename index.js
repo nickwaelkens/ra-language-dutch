@@ -1,17 +1,22 @@
 module.exports = {
-    aor: {
+    ra: {
         action: {
-            delete: 'Verwijder',
+            delete: 'Verwijderen',
             show: 'Toon',
             list: 'Lijst',
             save: 'Opslaan',
             create: 'Toevoegen',
             edit: 'Bewerk',
+            sort: 'Sorteer',
             cancel: 'Annuleer',
+            undo: 'Ongedaan maken',
             refresh: 'Ververs',
+            add: 'Voeg toe',
+            remove: 'Verwijder',
             add_filter: 'Voeg filter toe',
             remove_filter: 'Verwijder dit filter',
             back: 'Ga terug',
+            bulk_actions: '%{smart_count} geselecteerd',
         },
         boolean: {
             true: 'Ja',
@@ -22,37 +27,48 @@ module.exports = {
             edit: '%{name} #%{id}',
             show: '%{name} #%{id}',
             create: '%{name} toevoegen',
-            delete: '%{name} #%{id} verwijderen',
+            delete: '%{name} #%{id} verwijderen'
             dashboard: 'Dashboard',
             not_found: 'Niet gevonden',
+            loading: 'Aan het laden',
         },
         input: {
-            autocomplete: {
-                none: 'Geen',
-            },
-            file: {
-                upload_several: 'Drag en drop bestanden om te uploaden, of klik om bestanden te selecteren.',
-                upload_single: 'Drag en drop een bestand om te uploaden, of klik om een bestand te selecteren.',
-            },
-            image: {
-                upload_several: 'Drag en drop afbeeldingen om te uploaden, of klik om bestanden te selecteren.',
-                upload_single: 'Drag en drop een afbeelding om te uploaden, of klik om een bestand te selecteren.',
-            },
-            references: {
-                all_missing: 'De gerefereerde elementen konden niet gevonden worden.',
-                many_missing:
-                    'Een of meer van de gerefereerde elementen is niet meer beschikbaar.',
-                single_missing:
-                    'Een van de gerefereerde elementen is niet meer beschikbaar',
-            },
+          file: {
+              upload_several:
+                  'Drag en drop bestanden om te uploaden, of klik om bestanden te selecteren.',
+              upload_single:
+                  'Drag en drop een bestand om te uploaden, of klik om een bestand te selecteren.',
+          },
+          image: {
+              upload_several:
+                  'Drag en drop afbeeldingen om te uploaden, of klik om bestanden te selecteren.',
+              upload_single:
+                  'Drag en drop een afbeelding om te uploaden, of klik om een bestand te selecteren.',
+          },
+          references: {
+              all_missing:
+                  'De gerefereerde elementen konden niet gevonden worden.',
+              many_missing:
+                  'Een of meer van de gerefereerde elementen is niet meer beschikbaar.',
+              single_missing:
+                  'Een van de gerefereerde elementen is niet meer beschikbaar',
+          },
         },
         message: {
-            yes: 'Ja',
-            no: 'Nee',
-            are_you_sure: 'Weet u het zeker?',
-            about: 'Over',
-            not_found:
-                'U heeft een verkeerde URL ingevoerd of een defecte link aangeklikt.',
+          yes: 'Ja',
+          no: 'Nee',
+          are_you_sure: 'Weet u het zeker?',
+          about: 'Over',
+          not_found:
+              'U heeft een verkeerde URL ingevoerd of een defecte link aangeklikt.',
+          loading: 'De pagina is aan het laden, een moment a.u.b.',
+          invalid_form: 'Het formulier is ongeldig. Controleer a.u.b. de foutmeldingen',
+          delete_title: '%{name} #%{id} verwijderen',
+          delete_content: 'Weet u zeker dat u dit item wilt verwijderen?',
+          bulk_delete_title:
+              'Verwijder %{name} |||| Verwijder %{smart_count} %{name} items',
+          bulk_delete_content:
+              'Weet u zeker dat u dit %{name} item wilt verwijderen? |||| Weet u zeker dat u deze %{smart_count} items wilt verwijderen?',
         },
         navigation: {
             no_results: 'Geen resultaten gevonden',
@@ -73,12 +89,13 @@ module.exports = {
             logout: 'Uitloggen',
         },
         notification: {
-            updated: 'Element bijgewerkt',
+            updated: 'Element bijgewerkt |||| %{smart_count} elementen bijgewerkt',
             created: 'Element toegevoegd',
-            deleted: 'Element verwijderd',
+            deleted: 'Element verwijderd |||| %{smart_count} elementen verwijderd',
+            bad_item: 'Incorrect element',
             item_doesnt_exist: 'Element bestaat niet',
             http_error: 'Server communicatie fout',
-            bad_item: 'Incorrect element',
+            canceled: 'Actie geannulleerd',
         },
         validation: {
             required: 'Verplicht',
@@ -88,6 +105,8 @@ module.exports = {
             maxValue: 'Moet kleiner of gelijk zijn aan %{max}',
             number: 'Moet een getal zijn',
             email: 'Moet een geldig e-mailadres zijn',
+            oneOf: 'Moet een zijn van: %{options}',
+            regex: 'Moet overeenkomen met een specifiek format (regexp): %{pattern}',
         },
     },
 };
