@@ -27,7 +27,7 @@ module.exports = {
             edit: '%{name} #%{id}',
             show: '%{name} #%{id}',
             create: '%{name} toevoegen',
-            delete: '%{name} #%{id} verwijderen'
+            delete: '%{name} #%{id} verwijderen',
             dashboard: 'Dashboard',
             not_found: 'Niet gevonden',
             loading: 'Aan het laden',
