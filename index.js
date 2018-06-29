@@ -95,7 +95,7 @@ module.exports = {
             bad_item: 'Incorrect element',
             item_doesnt_exist: 'Element bestaat niet',
             http_error: 'Server communicatie fout',
-            canceled: 'Actie geannulleerd',
+            canceled: 'Actie geannuleerd',
         },
         validation: {
             required: 'Verplicht',
