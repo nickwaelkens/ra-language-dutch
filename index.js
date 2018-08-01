@@ -18,6 +18,7 @@ module.exports = {
             remove_filter: 'Verwijder dit filter',
             back: 'Ga terug',
             bulk_actions: '%{smart_count} geselecteerd',
+            export: 'Exporteer',
         },
         boolean: {
             true: 'Ja',
