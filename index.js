@@ -9,6 +9,7 @@ module.exports = {
             edit: 'Bewerk',
             sort: 'Sorteer',
             cancel: 'Annuleer',
+            clear_input_value: 'Veld wissen',
             undo: 'Ongedaan maken',
             refresh: 'Ververs',
             add: 'Voeg toe',
