@@ -9,6 +9,7 @@ module.exports = {
             edit: 'Bewerk',
             sort: 'Sorteer',
             cancel: 'Annuleer',
+            clear_input_value: 'Veld wissen',
             undo: 'Ongedaan maken',
             refresh: 'Ververs',
             add: 'Voeg toe',
@@ -17,6 +18,7 @@ module.exports = {
             remove_filter: 'Verwijder dit filter',
             back: 'Ga terug',
             bulk_actions: '%{smart_count} geselecteerd',
+            export: 'Exporteer',
         },
         boolean: {
             true: 'Ja',
@@ -31,6 +33,7 @@ module.exports = {
             dashboard: 'Dashboard',
             not_found: 'Niet gevonden',
             loading: 'Aan het laden',
+            error: 'Er is iets misgegaan',
         },
         input: {
           file: {
@@ -65,6 +68,8 @@ module.exports = {
           invalid_form: 'Het formulier is ongeldig. Controleer a.u.b. de foutmeldingen',
           delete_title: '%{name} #%{id} verwijderen',
           delete_content: 'Weet u zeker dat u dit item wilt verwijderen?',
+          error:
+               'Er is een clientfout opgetreden en uw aanvraag kon niet worden voltooid.',
           bulk_delete_title:
               'Verwijder %{name} |||| Verwijder %{smart_count} %{name} items',
           bulk_delete_content:
