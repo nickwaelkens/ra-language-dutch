@@ -19,6 +19,7 @@ module.exports = {
             back: 'Ga terug',
             bulk_actions: '%{smart_count} geselecteerd',
             export: 'Exporteer',
+            search: 'Zoek',
         },
         boolean: {
             true: 'Ja',
