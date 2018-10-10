@@ -19,6 +19,7 @@ module.exports = {
             back: 'Ga terug',
             bulk_actions: '%{smart_count} geselecteerd',
             export: 'Exporteer',
+            search: 'Zoek',
         },
         boolean: {
             true: 'Ja',
@@ -83,10 +84,12 @@ module.exports = {
             page_out_from_end: 'Laatste pagina',
             page_out_from_begin: 'Eerste pagina',
             page_range_info: '%{offsetBegin}-%{offsetEnd} van %{total}',
+            page_rows_per_page: 'Rijen per pagina:',
             next: 'Volgende',
             prev: 'Vorige',
         },
         auth: {
+            user_menu: 'Profiel',
             username: 'Gebruikersnaam',
             password: 'Wachtwoord',
             sign_in: 'Inloggen',
