@@ -1,47 +1,46 @@
 module.exports = {
     ra: {
         action: {
-            delete: 'Verwijderen',
-            show: 'Toon',
-            list: 'Lijst',
-            save: 'Opslaan',
-            create: 'Toevoegen',
-            edit: 'Bewerk',
-            sort: 'Sorteer',
-            cancel: 'Annuleer',
-            clear_input_value: 'Veld wissen',
-            undo: 'Ongedaan maken',
-            refresh: 'Ververs',
-            add: 'Voeg toe',
-            remove: 'Verwijder',
             add_filter: 'Voeg filter toe',
-            remove_filter: 'Verwijder dit filter',
+            add: 'Voeg toe',
             back: 'Ga terug',
             bulk_actions: '%{smart_count} geselecteerd',
+            cancel: 'Annuleer',
+            clear_input_value: 'Veld wissen',
+            create: 'Toevoegen',
+            delete: 'Verwijderen',
+            edit: 'Bewerk',
             export: 'Exporteer',
+            list: 'Lijst',
+            refresh: 'Ververs',
+            remove_filter: 'Verwijder dit filter',
+            remove: 'Verwijder',
+            save: 'Opslaan',
             search: 'Zoek',
+            show: 'Toon',
+            sort: 'Sorteer',
+            undo: 'Ongedaan maken',
         },
         boolean: {
             true: 'Ja',
             false: 'Nee',
         },
         page: {
-            list: '%{name}lijst',
-            edit: '%{name} #%{id}',
-            show: '%{name} #%{id}',
             create: '%{name} toevoegen',
-            delete: '%{name} #%{id} verwijderen',
             dashboard: 'Dashboard',
-            not_found: 'Niet gevonden',
-            loading: 'Aan het laden',
+            delete: '%{name} #%{id} verwijderen',
+            edit: '%{name} #%{id}',
             error: 'Er is iets misgegaan',
+            list: '%{name}lijst',
+            loading: 'Aan het laden',
+            not_found: 'Niet gevonden',
+            show: '%{name} #%{id}',
         },
         input: {
           file: {
               upload_several:
                   'Drag en drop bestanden om te uploaden, of klik om bestanden te selecteren.',
-              upload_single:
-                  'Drag en drop een bestand om te uploaden, of klik om een bestand te selecteren.',
+              upload_single: 'Drag en drop een bestand om te uploaden, of klik om een bestand te selecteren.',
           },
           image: {
               upload_several:
@@ -50,8 +49,7 @@ module.exports = {
                   'Drag en drop een afbeelding om te uploaden, of klik om een bestand te selecteren.',
           },
           references: {
-              all_missing:
-                  'De gerefereerde elementen konden niet gevonden worden.',
+              all_missing: 'De gerefereerde elementen konden niet gevonden worden.',
               many_missing:
                   'Een of meer van de gerefereerde elementen is niet meer beschikbaar.',
               single_missing:
@@ -59,22 +57,22 @@ module.exports = {
           },
         },
         message: {
-          yes: 'Ja',
-          no: 'Nee',
-          are_you_sure: 'Weet u het zeker?',
-          about: 'Over',
-          not_found:
-              'U heeft een verkeerde URL ingevoerd of een defecte link aangeklikt.',
-          loading: 'De pagina is aan het laden, een moment a.u.b.',
-          invalid_form: 'Het formulier is ongeldig. Controleer a.u.b. de foutmeldingen',
-          delete_title: '%{name} #%{id} verwijderen',
-          delete_content: 'Weet u zeker dat u dit item wilt verwijderen?',
-          error:
-               'Er is een clientfout opgetreden en uw aanvraag kon niet worden voltooid.',
-          bulk_delete_title:
-              'Verwijder %{name} |||| Verwijder %{smart_count} %{name} items',
-          bulk_delete_content:
+            about: 'Over',
+            are_you_sure: 'Weet u het zeker?',
+            bulk_delete_content:
               'Weet u zeker dat u dit %{name} item wilt verwijderen? |||| Weet u zeker dat u deze %{smart_count} items wilt verwijderen?',
+            bulk_delete_title:
+              'Verwijder %{name} |||| Verwijder %{smart_count} %{name} items',
+            delete_content: 'Weet u zeker dat u dit item wilt verwijderen?',
+            delete_title: '%{name} #%{id} verwijderen',
+            error:
+              'Er is een clientfout opgetreden en uw aanvraag kon niet worden voltooid.',
+            invalid_form: 'Het formulier is ongeldig. Controleer a.u.b. de foutmeldingen',
+            loading: 'De pagina is aan het laden, een moment a.u.b.',
+            no: 'Nee',
+            not_found:
+              'U heeft een verkeerde URL ingevoerd of een defecte link aangeklikt.',
+            yes: 'Ja',
         },
         navigation: {
             no_results: 'Geen resultaten gevonden',
