@@ -4,9 +4,11 @@ module.exports = {
             add_filter: 'Voeg filter toe',
             add: 'Voeg toe',
             back: 'Ga terug',
-            bulk_actions: '%{smart_count} geselecteerd',
+            bulk_actions: '1 geselecteerd |||| %{smart_count} geselecteerd',
             cancel: 'Annuleer',
             clear_input_value: 'Veld wissen',
+            clone: 'Kloon',
+            confirm: 'Bevestig',
             create: 'Toevoegen',
             delete: 'Verwijderen',
             edit: 'Bewerk',
@@ -28,7 +30,6 @@ module.exports = {
         page: {
             create: '%{name} toevoegen',
             dashboard: 'Dashboard',
-            delete: '%{name} #%{id} verwijderen',
             edit: '%{name} #%{id}',
             error: 'Er is iets misgegaan',
             list: '%{name}lijst',
@@ -65,6 +66,7 @@ module.exports = {
               'Verwijder %{name} |||| Verwijder %{smart_count} %{name} items',
             delete_content: 'Weet u zeker dat u dit item wilt verwijderen?',
             delete_title: '%{name} #%{id} verwijderen',
+            details: 'Details',
             error:
               'Er is een clientfout opgetreden en uw aanvraag kon niet worden voltooid.',
             invalid_form: 'Het formulier is ongeldig. Controleer a.u.b. de foutmeldingen',
@@ -101,7 +103,10 @@ module.exports = {
             bad_item: 'Incorrect element',
             item_doesnt_exist: 'Element bestaat niet',
             http_error: 'Server communicatie fout',
+            data_provider_error:
+              'dataProvider fout. Open console voor meer details.',
             canceled: 'Actie geannuleerd',
+            logged_out: 'Uw sessie is beëindigd, maak opnieuw verbinding.',
         },
         validation: {
             required: 'Verplicht',
