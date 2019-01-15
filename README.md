@@ -26,4 +26,4 @@ const messages = {
 
 ## License
 
-This translation is licensed under the [MIT Licence](LICENSE), and sponsored by [Pim Schaaf](https://open-roads.nl).
+This translation is licensed under the [MIT Licence](LICENSE).
