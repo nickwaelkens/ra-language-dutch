@@ -32,7 +32,7 @@ module.exports = {
             dashboard: 'Dashboard',
             edit: '%{name} #%{id}',
             error: 'Er is iets misgegaan',
-            list: '%{name}lijst',
+            list: '%{name}',
             loading: 'Aan het laden',
             not_found: 'Niet gevonden',
             show: '%{name} #%{id}',
