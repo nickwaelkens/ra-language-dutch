@@ -22,10 +22,13 @@ module.exports = {
             show: 'Toon',
             sort: 'Sorteer',
             undo: 'Ongedaan maken',
+            expand: 'Uitklappen',
+            close: 'Sluiten',
         },
         boolean: {
             true: 'Ja',
             false: 'Nee',
+            null: '',
         },
         page: {
             create: '%{name} toevoegen',
@@ -38,42 +41,42 @@ module.exports = {
             show: '%{name} #%{id}',
         },
         input: {
-          file: {
-              upload_several:
-                  'Drag en drop bestanden om te uploaden, of klik om bestanden te selecteren.',
-              upload_single: 'Drag en drop een bestand om te uploaden, of klik om een bestand te selecteren.',
-          },
-          image: {
-              upload_several:
-                  'Drag en drop afbeeldingen om te uploaden, of klik om bestanden te selecteren.',
-              upload_single:
-                  'Drag en drop een afbeelding om te uploaden, of klik om een bestand te selecteren.',
-          },
-          references: {
-              all_missing: 'De gerefereerde elementen konden niet gevonden worden.',
-              many_missing:
-                  'Een of meer van de gerefereerde elementen is niet meer beschikbaar.',
-              single_missing:
-                  'Een van de gerefereerde elementen is niet meer beschikbaar',
-          },
+            file: {
+                upload_several:
+                    'Drag en drop bestanden om te uploaden, of klik om bestanden te selecteren.',
+                upload_single: 'Drag en drop een bestand om te uploaden, of klik om een bestand te selecteren.',
+            },
+            image: {
+                upload_several:
+                    'Drag en drop afbeeldingen om te uploaden, of klik om bestanden te selecteren.',
+                upload_single:
+                    'Drag en drop een afbeelding om te uploaden, of klik om een bestand te selecteren.',
+            },
+            references: {
+                all_missing: 'De gerefereerde elementen konden niet gevonden worden.',
+                many_missing:
+                    'Een of meer van de gerefereerde elementen is niet meer beschikbaar.',
+                single_missing:
+                    'Een van de gerefereerde elementen is niet meer beschikbaar',
+            },
         },
         message: {
             about: 'Over',
             are_you_sure: 'Weet u het zeker?',
             bulk_delete_content:
-              'Weet u zeker dat u dit %{name} item wilt verwijderen? |||| Weet u zeker dat u deze %{smart_count} items wilt verwijderen?',
+                'Weet u zeker dat u dit %{name} item wilt verwijderen? |||| Weet u zeker dat u deze %{smart_count} items wilt verwijderen?',
             bulk_delete_title:
-              'Verwijder %{name} |||| Verwijder %{smart_count} %{name}',
+                'Verwijder %{name} |||| Verwijder %{smart_count} %{name}',
             delete_content: 'Weet u zeker dat u dit item wilt verwijderen?',
             delete_title: '%{name} #%{id} verwijderen',
             details: 'Details',
             error:
-              'Er is een clientfout opgetreden en uw aanvraag kon niet worden voltooid.',
+                'Er is een clientfout opgetreden en uw aanvraag kon niet worden voltooid.',
             invalid_form: 'Het formulier is ongeldig. Controleer a.u.b. de foutmeldingen',
             loading: 'De pagina is aan het laden, een moment a.u.b.',
             no: 'Nee',
             not_found:
-              'U heeft een verkeerde URL ingevoerd of een defecte link aangeklikt.',
+                'U heeft een verkeerde URL ingevoerd of een defecte link aangeklikt.',
             yes: 'Ja',
         },
         navigation: {
@@ -89,6 +92,7 @@ module.exports = {
             prev: 'Vorige',
         },
         auth: {
+            auth_check_error: 'Log in om door te gaan',
             user_menu: 'Profiel',
             username: 'Gebruikersnaam',
             password: 'Wachtwoord',
@@ -104,7 +108,9 @@ module.exports = {
             item_doesnt_exist: 'Element bestaat niet',
             http_error: 'Server communicatie fout',
             data_provider_error:
-              'dataProvider fout. Open console voor meer details.',
+                'dataProvider fout. Open console voor meer details.',
+            i18n_error:
+                'Kan de vertalingen voor de opgegeven taal niet laden',
             canceled: 'Actie geannuleerd',
             logged_out: 'Uw sessie is beëindigd, maak opnieuw verbinding.',
         },
