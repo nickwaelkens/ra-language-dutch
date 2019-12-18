@@ -60,6 +60,10 @@ module.exports = {
                     'Een van de gerefereerde elementen is niet meer beschikbaar',
             },
         },
+        password: {
+            toggle_visible: 'Verberg wachtwoord',
+            toggle_hidden: 'Toon wachtwoord',
+        },
         message: {
             about: 'Over',
             are_you_sure: 'Weet u het zeker?',
