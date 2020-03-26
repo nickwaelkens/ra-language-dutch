@@ -39,6 +39,8 @@ module.exports = {
             loading: 'Aan het laden',
             not_found: 'Niet gevonden',
             show: '%{name} #%{id}',
+            empty: 'Nog geen %{name}.',
+            invite: 'Wil je er eentje toevoegen?',
         },
         input: {
             file: {
