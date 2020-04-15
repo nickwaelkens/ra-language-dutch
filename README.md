@@ -1,8 +1,8 @@
-# Dutch Translations for React-admin
+# Dutch Messages for React-Admin
 
-Dutch translations for [react-admin](https://github.com/marmelab/react-admin). A frontend Framework for building admin applications running in the browser on top of REST/GraphQL services, using ES6, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Previously named [admin-on-rest](https://github.com/marmelab/admin-on-rest). Open sourced and maintained by [marmelab](https://marmelab.com/).
+Dutch messages for [react-admin](https://github.com/marmelab/react-admin), the frontend framework for building admin applications on top of REST/GraphQL services.
 
-![react-admin demo](https://camo.githubusercontent.com/8f45adbef8ce38b97bbf6e5492da0685d4d273d4/68747470733a2f2f6d61726d656c61622e636f6d2f72656163742d61646d696e2f696d672f72656163742d61646d696e2d64656d6f2d7374696c6c2e706e67)
+[![react-admin-demo](https://marmelab.com/react-admin/img/react-admin-demo-still.png)](https://vimeo.com/268958716)
 
 ## Installation
 
@@ -14,16 +14,18 @@ npm install --save ra-language-dutch
 
 ```js
 import dutchMessages from 'ra-language-dutch';
+import polyglotI18nProvider from 'ra-i18n-polyglot';
 
 const messages = {
     'nl': dutchMessages,
 };
+const i18nProvider = polyglotI18nProvider(locale => messages[locale]);
 
-<Admin locale="nl" messages={messages}>
+<Admin locale="nl" i18nProvider={i18nProvider}>
   ...
 </Admin>
 ```
 
 ## License
 
-This translation is licensed under the [MIT Licence](LICENSE).
+This translation is licensed under the MIT License.
