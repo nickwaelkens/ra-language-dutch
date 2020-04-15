@@ -1,7 +1,7 @@
 {
   "name": "ra-language-dutch",
   "description": "Dutch translations for react-admin. A frontend Framework for building admin applications running in the browser on top of REST/GraphQL services, using ES6, React and Material Design",
-  "version": "3.1.0",
+  "version": "3.4.1",
   "author": "Nick Waelkens",
   "bugs": {
     "url": "https://github.com/nickwaelkens/ra-language-dutch/issues"
