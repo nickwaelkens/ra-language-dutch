@@ -24,6 +24,7 @@ const dutchMessages: TranslationMessages =  {
             show: 'Toon',
             sort: 'Sorteer',
             undo: 'Ongedaan maken',
+            unselect: 'Deselecteren',
             expand: 'Uitklappen',
             close: 'Sluiten',
             open_menu: 'Open menu',
