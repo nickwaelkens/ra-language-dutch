@@ -90,7 +90,7 @@ const dutchMessages: TranslationMessages =  {
                 'U heeft een verkeerde URL ingevoerd of een defecte link aangeklikt.',
             yes: 'Ja',
             unsaved_changes:
-                'Sommige van uw wijzigingen zijn niet opgeslagen. Weet ue zeker dat u ze wilt negeren?',
+                'Sommige van uw wijzigingen zijn niet opgeslagen. Weet u zeker dat u ze wilt negeren?',
         },
         navigation: {
             no_results: 'Geen resultaten gevonden',
