@@ -92,6 +92,11 @@ const dutchMessages: TranslationMessages =  {
             unsaved_changes:
                 'Sommige van uw wijzigingen zijn niet opgeslagen. Weet u zeker dat u ze wilt negeren?',
         },
+        sort: {
+            sort_by: 'Sorteer op %{field} %{order}',
+            ASC: 'oplopend',
+            DESC: 'aflopend',
+        },
         navigation: {
             no_results: 'Geen resultaten gevonden',
             no_more_results:
