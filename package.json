@@ -32,6 +32,7 @@
   "module": "esm/index.js",
   "types": "esm/index.d.ts",
   "scripts": {
+    "prepack": "npm run build",
     "build": "npm run build-cjs && npm run build-esm",
     "build-cjs": "rimraf ./lib && tsc",
     "build-esm": "rimraf ./esm && tsc --outDir esm --module es2015",
