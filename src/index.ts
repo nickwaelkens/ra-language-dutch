@@ -108,6 +108,7 @@ const dutchMessages: TranslationMessages =  {
             page_rows_per_page: 'Rijen per pagina:',
             next: 'Volgende',
             prev: 'Vorige',
+            skip_nav: 'Doorgaan naar artikel',
         },
         auth: {
             auth_check_error: 'Log in om door te gaan',
