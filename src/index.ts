@@ -12,6 +12,7 @@ const dutchMessages: TranslationMessages =  {
             clone: 'Kloon',
             confirm: 'Bevestig',
             create: 'Toevoegen',
+            create_item: '%{item} toevoegen',
             delete: 'Verwijderen',
             edit: 'Bewerk',
             export: 'Exporteer',
