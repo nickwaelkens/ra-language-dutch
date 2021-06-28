@@ -39,7 +39,7 @@
     "watch": "tsc --outDir esm --module es2015 --watch"
   },
   "dependencies": {
-    "ra-core": "^3.15.1"
+    "ra-core": "^3.16.3"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
