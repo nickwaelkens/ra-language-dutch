@@ -31,6 +31,11 @@ const dutchMessages: TranslationMessages = {
             open_menu: 'Menu openen',
             close_menu: 'Menu sluiten',
             update: 'Update',
+            move_up: 'Omhoog verplaatsen',
+            move_down: 'Omlaag verplaatsen',
+            select_all: 'Alles selecteren',
+            select_row: 'Selecteer rij',
+            toggle_theme: 'Thema wisselen',
         },
         boolean: {
             true: 'Ja',
