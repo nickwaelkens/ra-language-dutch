@@ -35,6 +35,7 @@ const dutchMessages: TranslationMessages = {
             move_down: 'Omlaag verplaatsen',
             select_all: 'Alles selecteren',
             select_row: 'Selecteer rij',
+            open: 'Openen',
             toggle_theme: 'Thema wisselen',
         },
         boolean: {
@@ -56,22 +57,17 @@ const dutchMessages: TranslationMessages = {
         },
         input: {
             file: {
-                upload_several:
-                    'Drag en drop bestanden om te uploaden, of klik om bestanden te selecteren.',
+                upload_several: 'Drag en drop bestanden om te uploaden, of klik om bestanden te selecteren.',
                 upload_single: 'Drag en drop een bestand om te uploaden, of klik om een bestand te selecteren.',
             },
             image: {
-                upload_several:
-                    'Drag en drop afbeeldingen om te uploaden, of klik om bestanden te selecteren.',
-                upload_single:
-                    'Drag en drop een afbeelding om te uploaden, of klik om een bestand te selecteren.',
+                upload_several: 'Drag en drop afbeeldingen om te uploaden, of klik om bestanden te selecteren.',
+                upload_single: 'Drag en drop een afbeelding om te uploaden, of klik om een bestand te selecteren.',
             },
             references: {
                 all_missing: 'De gerefereerde elementen konden niet gevonden worden.',
-                many_missing:
-                    'Een of meer van de gerefereerde elementen is niet meer beschikbaar.',
-                single_missing:
-                    'Een van de gerefereerde elementen is niet meer beschikbaar',
+                many_missing: 'Een of meer van de gerefereerde elementen is niet meer beschikbaar.',
+                single_missing: 'Een van de gerefereerde elementen is niet meer beschikbaar',
             },
             password: {
                 toggle_visible: 'Wachtwoord verbergen',
@@ -83,25 +79,20 @@ const dutchMessages: TranslationMessages = {
             are_you_sure: 'Weet u het zeker?',
             bulk_delete_content:
                 'Weet u zeker dat u dit %{name} item wilt verwijderen? |||| Weet u zeker dat u deze %{smart_count} items wilt verwijderen?',
-            bulk_delete_title:
-                'Verwijder %{name} |||| Verwijder %{smart_count} %{name}',
+            bulk_delete_title: 'Verwijder %{name} |||| Verwijder %{smart_count} %{name}',
             bulk_update_content:
                 'Weet u zeker dat u dit %{name} wilt updaten? |||| Weet u zeker dat u deze %{smart_count} items wilt updaten?',
-            bulk_update_title:
-                'Update %{name} |||| Update %{smart_count} %{name}',
+            bulk_update_title: 'Update %{name} |||| Update %{smart_count} %{name}',
             delete_content: 'Weet u zeker dat u dit item wilt verwijderen?',
             delete_title: '%{name} #%{id} verwijderen',
             details: 'Details',
-            error:
-                'Er is een clientfout opgetreden en uw aanvraag kon niet worden voltooid.',
+            error: 'Er is een clientfout opgetreden en uw aanvraag kon niet worden voltooid.',
             invalid_form: 'Het formulier is ongeldig. Controleer a.u.b. de foutmeldingen',
             loading: 'De pagina is aan het laden, een moment a.u.b.',
             no: 'Nee',
-            not_found:
-                'U heeft een verkeerde URL ingevoerd of een defecte link aangeklikt.',
+            not_found: 'U heeft een verkeerde URL ingevoerd of een defecte link aangeklikt.',
             yes: 'Ja',
-            unsaved_changes:
-                'Sommige van uw wijzigingen zijn niet opgeslagen. Weet u zeker dat u ze wilt negeren?',
+            unsaved_changes: 'Sommige van uw wijzigingen zijn niet opgeslagen. Weet u zeker dat u ze wilt negeren?',
         },
         sort: {
             sort_by: 'Sorteren op %{field} %{order}',
@@ -110,8 +101,7 @@ const dutchMessages: TranslationMessages = {
         },
         navigation: {
             no_results: 'Geen resultaten gevonden',
-            no_more_results:
-                'Pagina %{page} ligt buiten het bereik. Probeer de vorige pagina.',
+            no_more_results: 'Pagina %{page} ligt buiten het bereik. Probeer de vorige pagina.',
             page_out_of_boundaries: 'Paginanummer %{page} buiten bereik',
             page_out_from_end: 'Laatste pagina',
             page_out_from_begin: 'Eerste pagina',
@@ -137,10 +127,8 @@ const dutchMessages: TranslationMessages = {
             bad_item: 'Incorrect element',
             item_doesnt_exist: 'Element bestaat niet',
             http_error: 'Server communicatie fout',
-            data_provider_error:
-                'dataProvider fout. Open console voor meer details.',
-            i18n_error:
-                'Kan de vertalingen voor de opgegeven taal niet laden',
+            data_provider_error: 'dataProvider fout. Open console voor meer details.',
+            i18n_error: 'Kan de vertalingen voor de opgegeven taal niet laden',
             canceled: 'Actie geannuleerd',
             logged_out: 'Uw sessie is beëindigd, maak opnieuw verbinding.',
             not_authorized: 'U heeft geen toegang tot deze bron.',
@@ -164,8 +152,7 @@ const dutchMessages: TranslationMessages = {
             remove_label: 'Opgeslagen zoekopdracht verwijderen',
             remove_label_with_name: 'Zoekopdracht "%{name}" verwijderen',
             remove_dialog_title: 'Opgeslagen zoekopdracht verwijderen?',
-            remove_message:
-              'Weet u zeker dat u dit item uit uw lijst met opgeslagen zoekopdrachten wilt verwijderen?',
+            remove_message: 'Weet u zeker dat u dit item uit uw lijst met opgeslagen zoekopdrachten wilt verwijderen?',
             help: 'Filter de lijst en sla deze zoekopdracht op voor later',
         },
     },
