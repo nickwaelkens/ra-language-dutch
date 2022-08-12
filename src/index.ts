@@ -106,9 +106,16 @@ const dutchMessages: TranslationMessages = {
             page_out_from_end: 'Laatste pagina',
             page_out_from_begin: 'Eerste pagina',
             page_range_info: '%{offsetBegin}-%{offsetEnd} van %{total}',
-            page_rows_per_page: 'Rijen per pagina:',
-            next: 'Volgende',
             prev: 'Vorige',
+            partial_page_range_info:
+                '%{offsetBegin}-%{offsetEnd} van meer dan %{offsetEnd}',
+            current_page: 'Pagina %{page}',
+            page: 'Ga naar pagina %{page}',
+            first: 'Ga naar eerste pagina',
+            last: 'Ga naar laatste pagina',
+            next: 'Volgende',
+            previous: 'Go to previous page',
+            page_rows_per_page: 'Rijen per pagina:',
             skip_nav: 'Doorgaan naar artikel',
         },
         auth: {
