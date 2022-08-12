@@ -156,6 +156,18 @@ const dutchMessages: TranslationMessages = {
             oneOf: 'Moet een zijn van: %{options}',
             regex: 'Moet overeenkomen met een specifiek format (regexp): %{pattern}',
         },
+        saved_queries: {
+            label: 'Opgeslagen zoekopdrachten',
+            query_name: 'Naam zoekopdracht',
+            new_label: 'Huidige zoekopdracht opslaan...',
+            new_dialog_title: 'Huidige zoekopdracht opslaan als',
+            remove_label: 'Opgeslagen zoekopdracht verwijderen',
+            remove_label_with_name: 'Zoekopdracht "%{name}" verwijderen',
+            remove_dialog_title: 'Opgeslagen zoekopdracht verwijderen?',
+            remove_message:
+              'Weet u zeker dat u dit item uit uw lijst met opgeslagen zoekopdrachten wilt verwijderen?',
+            help: 'Filter de lijst en sla deze zoekopdracht op voor later',
+        },
     },
 };
 
