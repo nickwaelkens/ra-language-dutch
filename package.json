@@ -1,7 +1,7 @@
 {
   "name": "ra-language-dutch",
   "description": "Dutch translations for react-admin. A frontend Framework for building admin applications running in the browser on top of REST/GraphQL services, using ES6, React and Material Design",
-  "version": "3.17.2",
+  "version": "4.3.0",
   "author": "Nick Waelkens",
   "bugs": {
     "url": "https://github.com/nickwaelkens/ra-language-dutch/issues"
@@ -28,21 +28,21 @@
     "esm",
     "src"
   ],
-  "main": "lib/index.js",
-  "module": "esm/index.js",
-  "types": "esm/index.d.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/cjs/index.d.ts",
   "scripts": {
     "prepack": "npm run build",
-    "build": "npm run build-cjs && npm run build-esm",
-    "build-cjs": "rimraf ./lib && tsc",
-    "build-esm": "rimraf ./esm && tsc --outDir esm --module es2015",
-    "watch": "tsc --outDir esm --module es2015 --watch"
+    "build": "yarn run build-cjs && yarn run build-esm",
+    "build-cjs": "rimraf ./dist/cjs && tsc --outDir dist/cjs",
+    "build-esm": "rimraf ./dist/esm && tsc --outDir dist/esm --module es2015",
+    "watch": "tsc --outDir dist/esm --module es2015 --watch"
   },
   "dependencies": {
-    "ra-core": "^3.17.2"
+    "ra-core": "^4.3.0"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
-    "typescript": "^3.8.3"
+    "typescript": "^4.4.0"
   }
 }
