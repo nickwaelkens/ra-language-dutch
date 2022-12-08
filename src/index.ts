@@ -37,7 +37,8 @@ const dutchMessages: TranslationMessages = {
             select_row: 'Selecteer rij',
             open: 'Openen',
             toggle_theme: 'Thema wisselen',
-            remove_all_filters: "Alle filters verwijderen"
+            remove_all_filters: "Alle filters verwijderen",
+            select_columns: "Kolommen",
         },
         boolean: {
             true: 'Ja',
