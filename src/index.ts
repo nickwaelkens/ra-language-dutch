@@ -8,7 +8,7 @@ const dutchMessages: TranslationMessages = {
             back: 'Ga terug',
             bulk_actions: '1 geselecteerd |||| %{smart_count} geselecteerd',
             cancel: 'Annuleren',
-            clear_array_input: 'lijst wissen',
+            clear_array_input: 'Lijst wissen',
             clear_input_value: 'Veld wissen',
             clone: 'Klonen',
             close_menu: 'Menu sluiten',
@@ -38,7 +38,7 @@ const dutchMessages: TranslationMessages = {
             sort: 'Sorteren',
             toggle_theme: 'Thema wisselen',
             undo: 'Ongedaan maken',
-            unselect: 'Unselect',
+            unselect: 'Deselecteer',
             update: 'Update',
         },
         boolean: {
