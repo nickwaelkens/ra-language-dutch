@@ -86,6 +86,7 @@ const dutchMessages: TranslationMessages = {
             bulk_update_content:
                 'Weet u zeker dat u dit %{name} wilt updaten? |||| Weet u zeker dat u deze %{smart_count} items wilt updaten?',
             bulk_update_title: 'Update %{name} |||| Update %{smart_count} %{name}',
+            clear_array_input: 'Weet u zeker dat u de hele lijst wilt wissen?',
             delete_content: 'Weet u zeker dat u dit item wilt verwijderen?',
             delete_title: '%{name} #%{id} verwijderen',
             details: 'Details',
