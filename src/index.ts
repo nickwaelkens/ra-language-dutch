@@ -40,6 +40,8 @@ const dutchMessages: TranslationMessages = {
             undo: 'Ongedaan maken',
             unselect: 'Deselecteer',
             update: 'Update',
+            select_all_button: 'Alles selecteren',
+            update_application: 'Applicatie herladen',
         },
         boolean: {
             true: 'Ja',
@@ -57,6 +59,8 @@ const dutchMessages: TranslationMessages = {
             show: '%{name} #%{id}',
             empty: 'Nog geen %{name}.',
             invite: 'Wilt u er een toevoegen?',
+            access_denied: 'Toegang geweigerd',
+            authentication_error: 'Authenticatiefout',
         },
         input: {
             file: {
@@ -96,6 +100,15 @@ const dutchMessages: TranslationMessages = {
             not_found: 'U heeft een verkeerde URL ingevoerd of een defecte link aangeklikt.',
             yes: 'Ja',
             unsaved_changes: 'Sommige van uw wijzigingen zijn niet opgeslagen. Weet u zeker dat u ze wilt negeren?',
+            access_denied:
+                'Je hebt niet de juiste rechten om deze pagina te bekijken',
+            auth_error: 'Er is een fout opgetreden bij het valideren van het authenticatietoken.',
+            authentication_error:
+                'De authenticatieserver heeft een fout geretourneerd en uw inloggegevens konden niet worden gecontroleerd.',
+            clear_array_input: 'Weet u zeker dat u de hele lijst wilt wissen?',
+            placeholder_data_warning: 'Netwerkprobleem: Data verversen mislukt.',
+            select_all_limit_reached:
+                'Er zijn te veel elementen om ze allemaal te selecteren. Alleen de eerste %{max} elementen zijn geselecteerd.',
         },
         sort: {
             sort_by: 'Sorteren op %{field} %{order}',
@@ -120,6 +133,8 @@ const dutchMessages: TranslationMessages = {
             previous: 'Go to previous page',
             page_rows_per_page: 'Rijen per pagina:',
             skip_nav: 'Doorgaan naar artikel',
+            no_filtered_results: 'Geen %{name} gevonden met de huidige filters.',
+            clear_filters: 'Filters wissen',
         },
         auth: {
             auth_check_error: 'Log in om door te gaan',
@@ -129,6 +144,7 @@ const dutchMessages: TranslationMessages = {
             sign_in: 'Inloggen',
             sign_in_error: 'Authenticatie mislukt, probeer opnieuw a.u.b.',
             logout: 'Uitloggen',
+            email: 'E-mail',
         },
         notification: {
             updated: 'Element bijgewerkt |||| %{smart_count} elementen bijgewerkt',
@@ -142,6 +158,7 @@ const dutchMessages: TranslationMessages = {
             canceled: 'Actie geannuleerd',
             logged_out: 'Uw sessie is beëindigd, maak opnieuw verbinding.',
             not_authorized: 'U heeft geen toegang tot deze bron.',
+            application_update_available: 'Er is een nieuwe versie beschikbaar.',
         },
         validation: {
             required: 'Verplicht',
